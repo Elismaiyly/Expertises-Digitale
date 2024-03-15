@@ -1,0 +1,124 @@
+﻿@model CV_PFA.Models.AuthentificationRecruteur
+
+@{
+    ViewData["Title"] = "RegisterRecruteur";
+}
+
+<h1>RegisterRecruteur</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="RegisterRecruteur">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+           
+            <div class="form-group">
+                <label asp-for="Nom" class="control-label"></label>
+                <input asp-for="Nom" class="form-control" />
+                <span asp-validation-for="Nom" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Prenom" class="control-label"></label>
+                <input asp-for="Prenom" class="form-control" />
+                <span asp-validation-for="Prenom" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="tele" class="control-label"></label>
+                <input asp-for="tele" class="form-control" />
+                <span asp-validation-for="tele" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="username" class="control-label"></label>
+                <input asp-for="username" class="form-control" />
+                <span asp-validation-for="username" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="password" class="control-label"></label>
+                <input asp-for="password" type="password" class="form-control" />
+                <span asp-validation-for="password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="confirmationpassword" class="control-label"></label>
+                <input asp-for="confirmationpassword" type="password" class="form-control" />
+                <span asp-validation-for="confirmationpassword" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="nomentreprise" class="control-label"></label>
+                <input asp-for="nomentreprise" class="form-control" />
+                <span asp-validation-for="nomentreprise" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NRmatricul" class="control-label"></label>
+                <input asp-for="NRmatricul" class="form-control" />
+                <span asp-validation-for="NRmatricul" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="piecejoint" class="control-label"></label>
+                <input asp-for="piecejoint" type="file" class="form-control" />
+                <span asp-validation-for="piecejoint" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url('/image/a.jpg');
+        background-size: auto;
+        background-repeat: no-repeat;
+    }
+
+    .col-md-4 {
+        background-color: #f4F8FA;
+        padding: 20px;
+        border-radius: 15px;
+        margin-top: 50px;
+    }
+
+    .btn {
+        text-decoration: none;
+        font-size: large;
+        font-weight: bold;
+        padding: 15px 30px;
+        color: white;
+        background-color: #417197;
+        border-radius: 15px;
+        transition: background-color 0.3s ease;
+    }
+
+    .logo {
+        margin-left: 150px;
+    }
+
+    .btn:hover {
+        background-color: #F1FADA;
+        color: #4A7A97;
+    }
+
+    h1 {
+        margin-left: 220px;
+        font-weight: bold;
+        color: #417197;
+    }
+
+</style>

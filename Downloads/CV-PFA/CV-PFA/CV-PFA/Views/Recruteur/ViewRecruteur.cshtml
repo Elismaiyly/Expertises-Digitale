@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page d'accueil</title>
+    <style>
+        head{
+            padding: 0;
+            background-color:black;
+
+
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('/image/a.jpg');
+            background-size: auto; /* Removed comma between values */
+            background-repeat: no-repeat;
+        }
+
+        /* Ensure that there are no special characters or syntax errors in the text */
+
+
+
+
+
+        
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color:#f4F8FA;
+           
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: black;
+        }
+
+        p {
+            text-align: center;
+            color: gray;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        li {
+            display: inline-block;
+            margin: 12px;
+        }
+
+        a {
+            text-decoration: none;
+            font-size:large;
+            font-weight:bold;
+
+            padding: 43px 70px;
+           
+            color:white;
+            background-color: #417197;
+       
+            border-radius: 20px;
+            transition: background-color 0.3s ease;
+           
+        }
+
+        
+        .button{
+
+            margin-top:40px;
+            margin-bottom:40px;
+          
+        }
+
+            a:hover {
+            background-color: #eeeee4;
+                color:#4A7A97;
+            }
+
+        .logo {
+            display: block;
+            margin: 0 auto;
+            max-width: 200px;
+            height: auto;
+            
+        }
+    
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+         <div class ="LG">           
+            <img class="logo" src="~/image/z.png" alt="Logo de votre entreprise">
+         </div> 
+         <h1>Bienvenue sur notre plateforme</h1>
+        <p>Choisissez votre rôle :</p>
+        <div class="button">
+            <ul>
+                <li><a href="@Url.Action("ActionCondidat", "Recruteur")">Candidat</a></li>
+                <li><a href="@Url.Action("ActionRecruteur", "Recruteur")">Recruteur</a></li>
+            </ul>
+        </div>
+      
+    </div>
+</body>
+</html>

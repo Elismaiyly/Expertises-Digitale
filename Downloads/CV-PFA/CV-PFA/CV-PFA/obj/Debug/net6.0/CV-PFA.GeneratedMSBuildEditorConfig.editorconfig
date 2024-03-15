@@ -1,0 +1,57 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CV_PFA
+build_property.RootNamespace = CV_PFA
+build_property.ProjectDir = C:\Users\Administrator\Downloads\CV-PFA\CV-PFA\CV-PFA\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Administrator\Downloads\CV-PFA\CV-PFA\CV-PFA
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Administrator/Downloads/CV-PFA/CV-PFA/CV-PFA/Views/AuthentificationRecruteur/RegisterRecruteur.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aGVudGlmaWNhdGlvblJlY3J1dGV1clxSZWdpc3RlclJlY3J1dGV1ci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrator/Downloads/CV-PFA/CV-PFA/CV-PFA/Views/Recruteur/ActionCondidat.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjcnV0ZXVyXEFjdGlvbkNvbmRpZGF0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrator/Downloads/CV-PFA/CV-PFA/CV-PFA/Views/Recruteur/ActionRecruteur.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjcnV0ZXVyXEFjdGlvblJlY3J1dGV1ci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrator/Downloads/CV-PFA/CV-PFA/CV-PFA/Views/Recruteur/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjcnV0ZXVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrator/Downloads/CV-PFA/CV-PFA/CV-PFA/Views/Recruteur/ViewRecruteur.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjcnV0ZXVyXFZpZXdSZWNydXRldXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrator/Downloads/CV-PFA/CV-PFA/CV-PFA/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrator/Downloads/CV-PFA/CV-PFA/CV-PFA/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrator/Downloads/CV-PFA/CV-PFA/CV-PFA/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrator/Downloads/CV-PFA/CV-PFA/CV-PFA/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrator/Downloads/CV-PFA/CV-PFA/CV-PFA/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-rjki9y3y6w
